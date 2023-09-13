@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tung.AssignmentActivity.TungActivity1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_asm_activity_atv1_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </fragment>
+
+    <Button
+        android:id="@+id/btn_asm_activity_atv2_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginVertical="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 1"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+</LinearLayout>

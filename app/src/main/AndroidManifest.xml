@@ -14,7 +14,14 @@
         android:theme="@style/Theme.Assignments"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Tung.AssignmentActivity.TungActivity3"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".Tung.AssignmentActivity.TungActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Tung.AssignmentActivity.TungActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
