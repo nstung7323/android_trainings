@@ -1,4 +1,4 @@
-package com.example.assignments;
+package com.dientc203.examplefragment2;
 
 import org.junit.Test;
 

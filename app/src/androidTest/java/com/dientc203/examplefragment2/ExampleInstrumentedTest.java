@@ -1,4 +1,4 @@
-package com.example.assignments;
+package com.dientc203.examplefragment2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.assignments", appContext.getPackageName());
+        assertEquals("com.dientc203.examplefragment2", appContext.getPackageName());
     }
 }
