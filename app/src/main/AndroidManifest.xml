@@ -14,21 +14,32 @@
         android:theme="@style/Theme.Assignments"
         tools:targetApi="31">
         <activity
-            android:name=".Tung.AssignmentActivity.TungActivity3"
-            android:exported="false"
-            android:launchMode="singleTask"/>
-        <activity
-            android:name=".Tung.AssignmentActivity.TungActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".Tung.AssignmentActivity.TungActivity1"
-            android:exported="true">
+            android:name=".Tung.AssignmentFragment.B2.Activity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Tung.AssignmentFragment.B1.Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Tung.AssignmentFragment.B1.Activity1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Tung.AssignmentActivity.Activity3"
+            android:exported="false"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Tung.AssignmentActivity.Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Tung.AssignmentActivity.Activity1"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"></activity>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tung.AssignmentActivity.TungActivity2">
+    tools:context=".Tung.AssignmentActivity.Activity2">
 
     <TextView
         android:id="@+id/tv_asm_activity_atv2_title"
