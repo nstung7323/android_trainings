@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dientc203.examplefragment2"
+    namespace = "com.dientc203.listview_recycleview"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.dientc203.examplefragment2"
+        applicationId = "com.dientc203.listview_recycleview"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    implementation ("com.squareup.picasso:picasso:2.8")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")

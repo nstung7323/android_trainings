@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ExampleFragment2"
+rootProject.name = "ListView_recycleView"
 include(":app")
  

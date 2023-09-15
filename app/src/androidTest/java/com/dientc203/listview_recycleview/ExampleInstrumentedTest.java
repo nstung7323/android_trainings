@@ -1,4 +1,4 @@
-package com.dientc203.examplefragment2;
+package com.dientc203.listview_recycleview;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.dientc203.examplefragment2", appContext.getPackageName());
+        assertEquals("com.dientc203.listview_recycleview", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.dientc203.examplefragment2;
+package com.dientc203.listview_recycleview;
 
 import org.junit.Test;
 
