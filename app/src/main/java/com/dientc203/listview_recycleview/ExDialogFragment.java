@@ -49,7 +49,7 @@ public class ExDialogFragment extends DialogFragment {
                     ,edColor.getText().toString()
                     ,edYear.getText().toString()
                     ,edImg.getText().toString()));
-            MainActivity mainActivity = (MainActivity) getActivity();
+            dismiss();
         });
     }
 
